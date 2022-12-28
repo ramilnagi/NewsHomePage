@@ -1,0 +1,19 @@
+@media screen and (max-width: 723px){
+  .toggle{
+    display: block;
+  }
+ .about button{
+  position: static;
+  margin-top: 15px;
+ } 
+ nav ul{
+    display: none;
+  }
+   .section ,.image,.about .text, .new, .about,.about h1
+  {
+    width: 100%;
+  }
+  .container,.about,footer,.home{
+    flex-direction: column;
+  }
+}

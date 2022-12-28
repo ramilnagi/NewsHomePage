@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Roboto&display=swap');
+:root{
+    --linkclr:black;
+    --txtclr:rgb(165, 165, 165);
+    --btnclr:white;
+    --btnbckclr:rgb(241, 22, 22);
+    --newbck:rgb(26, 27, 31);;
+    --h1clr:rgb(175, 151, 16);;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* navbar */
+nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toggle{
+    display:none;
+}
+nav h1{
+    font-size: 50px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 33px;
+}
+nav ul a{
+    text-decoration: none;
+    color: var(--linkclr);
+    
+    
+}
+/* endNavbar */
+/* container */
+.container{
+    display: flex;
+    gap: 30px;
+}
+.home img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    gap: 30px;
+}
+.about h1{
+    width:50%;
+    font-size: 60px;  
+}
+.about .text{
+    position: relative;
+    width: 50%;
+    font-size: 13px;
+    color: var(--txtclr);
+    padding-right: 15px;
+   
+}
+.about button{
+    position: absolute;
+    /* width: 130px; */
+    padding: 10px 20px;
+    /* height: 30px; */
+    border: none;
+    background-color: var(--btnbckclr);
+    color: var(--btnclr);
+    letter-spacing: 4px;
+    bottom: 0;
+}
+/* new */
+.new{
+    background-color: var(--newbck);
+    padding: 20px 20px 0px 20px ;
+}
+.new h1{
+    color: var(--h1clr);
+}
+.new h4{
+    color: var(--btnclr);
+    padding-top: 20px;
+}
+.new p{
+    color:var(--txtclr);
+    padding-top: 15px;
+    font-size: 13px;
+}
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid var(--txtclr);
+    margin-top: 20px;
+}
+/* endNew */
+/* endcontainer */
+
+/* footer */
+footer{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:55px;
+}
+footer .section img{
+    width: 30%;
+}
+.section{
+    width: 33%;
+    display: flex;
+    gap: 20px;
+}
+footer.section div{
+    padding: 10px;
+}
+.section p{
+    font-size: 13px;
+    padding-top: 10px;
+    color: var(--txtclr);
+}
+.section span{
+    font-size: 20px;
+    display: block;
+    color: var(--txtclr);
+    padding-bottom: 10px;
+}
+/* footerend */
